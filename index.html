@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <title>Hello Render Tests</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <p>
+    Set body display: none; before DOM manipulation:
+    <input type=checkbox id="displayNone">
+  <p>
+    <button onclick="createElements()">Create Elements</button> <span id="test-a"></span>
+  </p>
+
+  <p>
+    <button onclick="updateElements()">Update Elements</button> <span id="test-b"></span>
+  </p>
+
+  <div id="output"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

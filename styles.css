@@ -1,0 +1,14 @@
+
+.item {
+  float:left;
+}
+
+.item {
+  animation-duration: 0.001s;
+  animation-name: nodeInserted;
+}
+
+@keyframes nodeInserted {
+  from { opacity: 0.99; }
+  to { opacity: 1; }
+}
